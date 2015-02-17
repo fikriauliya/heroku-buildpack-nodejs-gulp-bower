@@ -1,5 +1,4 @@
-Heroku Buildpack for Node.js, gulp.js, and bower
-========================================
+# Heroku Buildpack for Node.js, gulp.js, and bower
 
 Usage
 -----
@@ -8,7 +7,6 @@ Usage
 - Run `heroku labs:enable user-env-compile` to enable environment variable support
 - Run `heroku config:set NODE_ENV=production` to set your environment to `production` (or any other name)
 - Add a Gulp task called `heroku:production` that builds your app
-
 - Add a single line `Procfile` to the root to serve the app via node:
 
 ```
@@ -18,7 +16,7 @@ web: node index.js
 (edit to fit your case)
 
 Credits
--------
+-----
 
 Inspired by [Deploying a Yeoman/Angular app to Heroku](http://www.sitepoint.com/deploying-yeomanangular-app-heroku/).
 
